@@ -2,4 +2,29 @@
 background-color: red;
 width: 100px;
 height: 100px;
+position: absolute;
+animation: 2s animation infinite;
+}
+
+@keyframes animation {
+    0%{
+        top: 20px;
+        left: 20px;
+    }
+    25%{
+        top: 20px;
+        left: 60px;
+    }
+    50%{
+        top: 60px;
+        left: 60px;
+    }
+    75%{
+        top: 60px;
+        left: 20px;
+    }
+    100%{
+        top: 20px;
+        left: 20px;
+    }
 }
